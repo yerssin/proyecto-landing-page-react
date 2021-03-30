@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar";
 
 function App() {
+
+  let propiedadesNavbar = {
+    titulo: "Start Boostrap",
+    home: "Home",
+    about: "About",
+    services: "Services",
+    contact: "Contact",
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Navbar
+      titulo={propiedadesNavbar.titulo}
+      home={propiedadesNavbar.home}
+      about={propiedadesNavbar.about}
+      services={propiedadesNavbar.services}
+      contact={propiedadesNavbar.contact}
+    />
+
   );
 }
 
