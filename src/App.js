@@ -28,6 +28,7 @@ function App() {
 
 
       <Jumbotron />
+
       <div className="container">
 
         <div className="card-group d-flex justify-content-center">
