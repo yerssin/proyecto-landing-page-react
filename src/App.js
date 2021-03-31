@@ -28,17 +28,16 @@ function App() {
 
 
       <Jumbotron />
-      <div className="container ">
+      <div className="container">
 
-        <div className="card-group d-flex flex-nowrap d-flex justify-content-center">
-
-          < Cards />
-
-          < Cards />
+        <div className="card-group d-flex justify-content-center">
+          
 
           < Cards />
-
           < Cards />
+          < Cards />
+          < Cards />
+          
         </div>
 
       </div>

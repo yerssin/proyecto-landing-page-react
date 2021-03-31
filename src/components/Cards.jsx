@@ -5,7 +5,7 @@ const Cards = () => {
 
     return (
         <div>
-            <div className="card mx-1">
+            <div className="card mx-1 my-2">
                 <img src={imagen} alt="" className="card-img-top" />
                 <div className="card-body">
                     <h5 className="text-center">Card Title</h5>
