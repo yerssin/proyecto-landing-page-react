@@ -31,14 +31,11 @@ function App() {
 
       <div className="container">
 
-        <div className="card-group d-flex justify-content-center">
-
-
+        <div className="row d-flex justify-content-center">
           < Cards />
           < Cards />
           < Cards />
           < Cards />
-
         </div>
 
       </div>
