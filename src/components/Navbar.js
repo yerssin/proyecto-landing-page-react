@@ -20,7 +20,7 @@ const Navbar = (props) => {
                             <a className="nav-link" href="#">{props.services}</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#" tabindex="-1" aria="true">{props.contact}</a>
+                            <a className="nav-link" href="#">{props.contact}</a>
                         </li>
                     </ul>
                 </div>
