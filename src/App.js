@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Jumbotron from "./components/jumbotron";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         services={propiedadesNavbar.services}
         contact={propiedadesNavbar.contact}
       />
+      <Jumbotron />
       <Footer
         titulo={propiedadesfooter.titulo}
       />
