@@ -29,6 +29,7 @@ function App() {
         titulo={propiedadesfooter.titulo}
       />
     </>
+
   );
 }
 
