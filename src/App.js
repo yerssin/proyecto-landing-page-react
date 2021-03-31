@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Cards from "./components/Cards";
 
 function App() {
 
@@ -23,9 +24,24 @@ function App() {
         services={propiedadesNavbar.services}
         contact={propiedadesNavbar.contact}
       />
+      <div className="container ">
+        <div className="card-group d-flex flex-nowrap d-flex justify-content-center">
+
+          < Cards />
+
+          < Cards />
+
+          < Cards />
+
+          < Cards />
+        </div>
+
+      </div>
+
       <Footer
         titulo={propiedadesfooter.titulo}
       />
+
     </>
   );
 }
